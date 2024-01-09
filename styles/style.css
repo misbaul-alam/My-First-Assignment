@@ -1,21 +1,39 @@
 *{
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box;
+ 
 }
-.banner, .hablu{
-  position: relative; width: 90%; margin: 0 auto; 
-  background-size: cover;
-  background: rgba(211, 209, 209, 0);
-   
+.container {
+  /* position: relative; */
+   width: 90%;
+    margin: 0 auto; 
 }
 .text{
   position: absolute; 
   color: white;
   top: 30%;
-  width: 100%;
+  width: 80%;
   text-align: center;
   font-family: Merriweather;
 font-size: 30px;
+margin: 0 auto;
+}
+#categories{
+  position:relative;
+   width: 90%;
+    margin: 0 400px;
+     top: 300px;    
+}
 
+.section-heading{
+  position: absolute; 
+  color: rgb(237, 4, 4);
+  text-align: center;
+}
+.party-text{
+  position: absolute;
+  color: rgb(238, 4, 43);
+  text-align: left;
+  top: 30%;
+  width: 80%;
 }
